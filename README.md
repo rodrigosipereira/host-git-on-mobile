@@ -14,12 +14,12 @@
 ## Instalar o termux
 - Abra o aplicativo f-droid
 - Va para categorias: <br>
-   <img src="./assets/images/f-droid-home.jpg" alt="vim" height="55%" style="max-width:250px;">
+   <img src="./assets/images/f-droid-home.jpg" alt="instalando o f-droid" height="55%" style="max-width:250px;">
 - Desenvolvimento: <br>
-  <img src="./assets/images/f-droid-category.jpg" alt="vim" height="55%" style="max-width:80px;">
+  <img src="./assets/images/f-droid-category.jpg" alt="instalando o f-droid" height="55%" style="max-width:250px;">
 - Termux: <br>
-   <img src="./assets/images/f-droid-development-category.jpg" alt="vim" height="55%" style="max-width:250px;">
-- Instalar: **o meu caso já está instalado, no seu vai estar escrito instalar** <img src="assets/images/termux-app-on-f-droid.jpg" alt="Instalar o termux" height="55%" style="max-height:80px;">
+   <img src="./assets/images/f-droid-development-category.jpg" alt="instalando o f-droid" height="55%" style="max-width:250px;">
+- Instalar: **No meu caso já está instalado, no seu vai estar escrito instalar** <img src="assets/images/termux-app-on-f-droid.jpg" alt="Instalar o termux" height="55%" style="max-height:250px;">
 - Desenvolvimento:
 
 <p align="center">Com estes **aplicativos acima** instalados podemos prosseguir</p>
@@ -30,43 +30,40 @@
 
 <span align="left">
 <img src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg" alt="linux" width="22" height="22">
-</span> ```bash # && -> Faz com que um comando seja executado após o outro, caso não ocorra um erro.\napt update && apt upgrade -y ``` <br>
+</span>
+<code><p>&& -> Faz com que um comando seja executado após o outro, caso não ocorra um erro.</p></code>
+<code><p><pre><code>apt update && apt upgrade -y</code></pre></p></code><br>
 <span align="left">
-<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="instalando o coreutils" width="22" height="22"> ```bash apt install coreutils -y```
+<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="instalando o coreutils" width="22" height="22"><code><p><pre><code>apt install coreutils -y</code></pre></p></code>
 </span><br>
 <span align="left">
-<img src="https://www.vectorlogo.zone/logos/curl_haxx/curl_haxx-ar21.svg" alt="instalando o curl" width="22" height="22"> ```bash apt install curl -y```
+<img src="https://www.vectorlogo.zone/logos/curl_haxx/curl_haxx-ar21.svg" alt="instalando o curl" width="22" height="22"><code><p><pre><code>apt install curl -y</code></pre></p></code>
 </span><br>
 <span align="left">
-<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="instalando o tar" width="22" height="22"> ```bash apt install tar -y```
+<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="instalando o tar" width="22" height="22"><code><p><pre><code>apt install tar -y</code></pre></p></code>
 </span><br>
 <span align="left">
-<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="instalando o tar" width="22" height="22"> ```bash #Depois de rodar esse comando aparece uma janela pedido acesso ao armazenamento do celular.\ntermux-setup-storage``` <br>
+<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="instalando o tar" width="22" height="22"><code><p>#Depois de rodar esse comando aparece uma janela pedido acesso ao armazenamento do celular.</p></code><code><p><pre><code>termux-setup-storage</code></pre></p></code><br>
 </span><br>
 <span align="left">
-<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="instalando o gnupg" width="22" height="22"> ```bash apt install gnupg -y```
+<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="instalando o gnupg" width="22" height="22"><code><p><pre><code>apt install gnupg -y</code></pre></p></code>
 </span><br>
 <span align="left">
-<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="instalando o gnupg" width="22" height="22"> ```bash apt install zsh -y```
+<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="instalando o gnupg" width="22" height="22"><code><p><pre><code>apt install zsh -y</code></pre></p></code>
 </span><br>
 <span align="left">
-<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="instalando o gnupg" width="22" height="22"> ```bash # Definir o zsh como shell principal\nchsh -s zsh```
+<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="instalando o gnupg" width="22" height="22"><code><p># Definir o zsh como shell principal.</p></code><code><p><pre><code>chsh -s zsh</code></pre></p></code>
 </span><br>
 <span align="left" style="margin:0;padding:0;">
-<img src="https://www.vectorlogo.zone/logos/vim/vim-ar21.svg" alt="vim" width="29" height="18" style="margin:0;padding:0;"> ```bash apt install vim -y```
+<img src="https://www.vectorlogo.zone/logos/vim/vim-ar21.svg" alt="vim" width="29" height="18" style="margin:0;padding:0;"><code><p><pre><code>apt install vim -y</code></pre></p></code>
 </span><br>
 <span align="left">
-<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="22" height="22"> ```bash apt install git -y```
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="22" height="22"><code><p><pre><code>apt install git -y</code></pre></p></code>
 </span>
-<!--
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodrigosipereira&layout=compact&hide=html" alt="rodrigosipereira"></p>
+<br>
+<h2Autor</h2>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=rodrigosipereira&show_icons=true" alt="rodrigosipereira"></p>
--->
-<br><br>
-## Autor
-
-<img style="border-radius:50%;" src="https://avatars.githubusercontent.com/u/61669301?v=4" width="100px;" alt="">
+<img style="border-radius:50px;" src="https://avatars.githubusercontent.com/u/61669301?v=4" width="100px;" alt="minha foto de perfil do github">
 <sub><b><a href="https://github.com/rodrigosipereira">Rodrigo Silva</a></b></sub>
 
 ## Conecte-se comigo:
