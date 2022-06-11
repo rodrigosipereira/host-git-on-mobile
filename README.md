@@ -32,7 +32,7 @@
 <img src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg" alt="linux" width="22" height="22">
 </span>
 <code><p>&& -> Faz com que um comando seja executado após o outro, caso não ocorra um erro.</p></code>
-```bash
+```
 apt update && apt upgrade -y
 ```
 <span align="left">
