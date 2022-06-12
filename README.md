@@ -61,7 +61,32 @@
 <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="22" height="22"><code><p><pre><code>apt install git -y</code></pre></p></code>
 </span>
 <br>
-<h2Autor</h2>
+<h2>Configurar a chave SSH</h2>
+
+<p>Primeiro instale os pacotes necessários</p>
+<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="configurando a chave SSH" width="22" height="22"><code><p><pre><code>apt install openssl-tool -y && apt install openssh -y</code></pre></p></code>
+
+<p>Configure o seu nome de usuario e email no git.</p>
+<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="configurando a chave SSH" width="22" height="22"><code><p><pre><code>git config --global user.name "seu_nome_de_usuario" && git config --global user.email "seu_email@email.com"</code></pre></p></code>
+
+<p>Agora crie a sua chave de acesso SSH.</p>
+<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="configurando a chave SSH" width="22" height="22"><code><p><pre><code>ssh-keygen -t rsa -C seu_email@email.com</code></pre></p></code>
+
+<img src="./assets/images/criar-chave-ssh.jpg" alt="Criar chave ssh" height="55%" style="max-width:250px;">
+
+<p>Agora vá para sua conta do Github faça login e em configurações clique em Chaves SSH e GPG.</p>
+
+<p>Vai aparecer para inserir o nome e a chave ssh, o nome pode ser o que você preferir, agora a chave você vai encontar no pasta .ssh/id_rsa.pub no Termux.</p>
+<p>Para exibir a chave do arquivo execute este comando abaixo, e lembre-se de copiar chave inteira, senão você terá problemas para fazer a conexão.</p>
+<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="configurando a chave SSH" width="22" height="22"><code><p><pre><code>clear && cat .ssh/id_rsa.pub</code></pre></p></code>
+
+<p>Com a chave copiada volte para o Github e cole, agora é só enviar.</p>
+<p>Para ver se tudo deu certo vamos fazer a conexão.</p>
+<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="configurando a chave SSH" width="22" height="22"><code><p><pre><code>ssh -T git@github.com</code></pre></p></code>
+<p>Vai aparecer 2 perguntas! A primeira você só digita yes, a segunda você vai digitar a senha que foi pedida no momento que você criou a sua chave SSH.</p>
+
+<br>
+<h2>Autor</h2>
 
 <img style="border-radius:50px;" src="https://avatars.githubusercontent.com/u/61669301?v=4" width="100px;" alt="minha foto de perfil do github">
 <sub><b><a href="https://github.com/rodrigosipereira">Rodrigo Silva</a></b></sub>
